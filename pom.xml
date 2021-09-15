@@ -43,6 +43,7 @@
         <spring.version>5.2.15.RELEASE</spring.version>
         <btx.version>1.0-SNAPSHOT</btx.version>
         <btx.common.version>1.0-SNAPSHOT</btx.common.version>
+        <cn.hutool.version>5.7.12</cn.hutool.version>
     </properties>
 
     <dependencyManagement>
@@ -212,6 +213,21 @@
                 <groupId>top.cheesetree.btx.common</groupId>
                 <artifactId>btx-common-lang</artifactId>
                 <version>${btx.common.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-all</artifactId>
+                <version>${cn.hutool.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-crypto</artifactId>
+                <version>${cn.hutool.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-core</artifactId>
+                <version>${cn.hutool.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
