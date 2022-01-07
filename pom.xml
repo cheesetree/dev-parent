@@ -49,30 +49,6 @@
 
     <dependencyManagement>
         <dependencies>
-
-            <!-- spring cloud-->
-<!--            <dependency>-->
-<!--                <groupId>org.springframework.boot</groupId>-->
-<!--                <artifactId>spring-boot-dependencies</artifactId>-->
-<!--                <version>${spring-boot.version}</version>-->
-<!--                <type>pom</type>-->
-<!--                <scope>import</scope>-->
-<!--            </dependency>-->
-<!--            <dependency>-->
-<!--                <groupId>org.springframework.cloud</groupId>-->
-<!--                <artifactId>spring-cloud-dependencies</artifactId>-->
-<!--                <version>${spring-cloud.version}</version>-->
-<!--                <type>pom</type>-->
-<!--                <scope>import</scope>-->
-<!--            </dependency>-->
-<!--            &lt;!&ndash;spring cloud &ndash;&gt;-->
-
-<!--            <dependency>-->
-<!--                <groupId>com.baomidou</groupId>-->
-<!--                <artifactId>mybatis-plus-boot-starter</artifactId>-->
-<!--                <version>${mybatis.plus.starter.version}</version>-->
-<!--            </dependency>-->
-
             <dependency>
                 <groupId>com.fasterxml.jackson.dataformat</groupId>
                 <artifactId>jackson-dataformat-yaml</artifactId>
@@ -214,6 +190,11 @@
                 <groupId>top.cheesetree.btx.common</groupId>
                 <artifactId>btx-common-lang</artifactId>
                 <version>${btx.common.version}</version>
+            </dependency>
+            <dependency>
+                <artifactId>btx-scheduler-xxl</artifactId>
+                <groupId>top.cheesetree.btx.project.scheduler</groupId>
+                <version>${btx.version}</version>
             </dependency>
             <dependency>
                 <groupId>cn.hutool</groupId>
